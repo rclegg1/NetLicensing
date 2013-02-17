@@ -57,6 +57,8 @@ namespace NetLicensing
                     rightKey = true;
                     break;
                 }
+
+                count++;
             }
 
            
