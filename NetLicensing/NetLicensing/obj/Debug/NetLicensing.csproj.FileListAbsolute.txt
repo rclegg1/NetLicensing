@@ -1,0 +1,5 @@
+C:\Users\Ian Duncan\Desktop\NetLicensingGit\NetLicensing\NetLicensing\bin\Debug\NetLicensing.dll
+C:\Users\Ian Duncan\Desktop\NetLicensingGit\NetLicensing\NetLicensing\bin\Debug\NetLicensing.pdb
+C:\Users\Ian Duncan\Desktop\NetLicensingGit\NetLicensing\NetLicensing\obj\Debug\NetLicensing.csprojResolveAssemblyReference.cache
+C:\Users\Ian Duncan\Desktop\NetLicensingGit\NetLicensing\NetLicensing\obj\Debug\NetLicensing.dll
+C:\Users\Ian Duncan\Desktop\NetLicensingGit\NetLicensing\NetLicensing\obj\Debug\NetLicensing.pdb
