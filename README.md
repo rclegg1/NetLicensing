@@ -1,0 +1,4 @@
+NetLicensing
+============
+
+.NET Licensing Library
