@@ -27,7 +27,7 @@ The license file is encrypted using two keys of your choosing, except for the fa
 The License Of The Library Itself
 ---------------------------------
 
-NetLicensing is licensed under the LGPL v2. You can read this license by reading LICENSE.txt
+NetLicensing is licensed under the LGPL v2.1. You can read this license by reading LICENSE.txt
 
 Documentation
 -------------
