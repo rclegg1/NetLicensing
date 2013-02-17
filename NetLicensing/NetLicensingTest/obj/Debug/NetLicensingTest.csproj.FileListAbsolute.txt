@@ -1,0 +1,8 @@
+C:\Users\Ian Duncan\Desktop\NetLicensingGit\NetLicensing\NetLicensingTest\bin\Debug\NetLicensingTest.exe.config
+C:\Users\Ian Duncan\Desktop\NetLicensingGit\NetLicensing\NetLicensingTest\bin\Debug\NetLicensingTest.exe
+C:\Users\Ian Duncan\Desktop\NetLicensingGit\NetLicensing\NetLicensingTest\bin\Debug\NetLicensingTest.pdb
+C:\Users\Ian Duncan\Desktop\NetLicensingGit\NetLicensing\NetLicensingTest\bin\Debug\NetLicensing.dll
+C:\Users\Ian Duncan\Desktop\NetLicensingGit\NetLicensing\NetLicensingTest\bin\Debug\NetLicensing.pdb
+C:\Users\Ian Duncan\Desktop\NetLicensingGit\NetLicensing\NetLicensingTest\obj\Debug\NetLicensingTest.csprojResolveAssemblyReference.cache
+C:\Users\Ian Duncan\Desktop\NetLicensingGit\NetLicensing\NetLicensingTest\obj\Debug\NetLicensingTest.exe
+C:\Users\Ian Duncan\Desktop\NetLicensingGit\NetLicensing\NetLicensingTest\obj\Debug\NetLicensingTest.pdb

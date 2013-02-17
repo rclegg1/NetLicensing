@@ -26,7 +26,7 @@ using System.IO;
 
 namespace NetLicensing
 {
-    class License
+    public class License
     {
         public void createLicenseFile(string filename, string key, string key1, string key2)
         {

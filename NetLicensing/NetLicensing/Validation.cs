@@ -44,6 +44,27 @@ namespace NetLicensing
             return rightKey;
         }
 
+        public bool validateKeyArray(string key, string[] keys)
+        {
+            bool rightKey = false;
+            int numOfKeys = keys.Count();
+            int count = 0;
+
+            while (count < numOfKeys)
+            {
+                if (keys[count] == key)
+                {
+                    rightKey = true;
+                    break;
+                }
+            }
+
+           
+
+            return rightKey;
+        }
+
+
         public bool validateLicense(string licenseFile, string key1, string key2, string keys)
         {
             bool validLicense = false;
@@ -81,6 +102,45 @@ namespace NetLicensing
             
 
         }
+
+        public bool validateLicenseArray(string licenseFile, string key1, string key2, string[] keys)
+        {
+            bool validLicense = false;
+            try
+            {
+                StreamReader sr = new StreamReader(licenseFile);
+
+                Networking net = new Networking();
+                Encryption enc = new Encryption();
+
+                string licenseInfo = sr.ReadToEnd();
+
+                string licenseInfoDecrypted = enc.DecryptString(licenseInfo, key1, key2);
+                sr.Close();
+
+
+                string[] liInfo = licenseInfoDecrypted.Split(' ');
+
+                if (liInfo[0] == net.GetMACAddress().ToString() && validateKeyArray(liInfo[1], keys) == true)
+                {
+
+                    validLicense = true;
+                }
+
+
+
+
+            }
+            catch (Exception)
+            {
+                ;
+            }
+
+            return validLicense;
+
+
+        }
+          
           
         
 

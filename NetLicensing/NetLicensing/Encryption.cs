@@ -27,7 +27,7 @@ using System.IO;
 
 namespace NetLicensing
 {
-    class Encryption
+    public class Encryption
     {
         //EncryptString
         //Key1 MUST BE 16 IN LENGTH

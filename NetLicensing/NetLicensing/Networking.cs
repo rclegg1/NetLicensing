@@ -26,7 +26,7 @@ using System.Net.NetworkInformation;
 
 namespace NetLicensing
 {
-    class Networking
+    public class Networking
     {
         public string GetMACAddress()
         {
